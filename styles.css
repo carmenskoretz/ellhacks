@@ -2,11 +2,29 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
- 	background-image: url('images/sky3.png');
+ 	background-image: url('images/sky3.jpg');
  	background-size: 100%;
  	background-repeat: no-repeat;
 }
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+#share-buttons {
+	margin-top: -200px;
+	margin-left: 10px;
+}
+
+#share-buttons img:hover {
+opacity: 0.5;
+transition: all 0.4s ease-out;
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display:list-item;
+}
 
 .mission {
 	position: absolute;
@@ -95,5 +113,6 @@ body {
 .backbutton:hover {
 	cursor:pointer;
 	color: white;
-	background: rgba(0, 0, 0);
+	background: #27416b;
+	border-color: #27416b;
 }
